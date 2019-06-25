@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A58A4ED274A941CA248EA921"
-               BuildableName = "Charts.framework"
-               BlueprintName = "Charts"
-               ReferencedContainer = "container:Charts.xcodeproj">
+               BlueprintIdentifier = "225B361C1F6EB9A50005B3D5"
+               BuildableName = "ChartsDemo-iOS-Swift.app"
+               BlueprintName = "ChartsDemo-iOS-Swift"
+               ReferencedContainer = "container:ChartsDemo-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,22 +28,21 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2749BD5443C1CB5FE2080C2"
-               BuildableName = "ChartsTests.xctest"
-               BlueprintName = "ChartsTests"
-               ReferencedContainer = "container:Charts.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "225B361C1F6EB9A50005B3D5"
+            BuildableName = "ChartsDemo-iOS-Swift.app"
+            BlueprintName = "ChartsDemo-iOS-Swift"
+            ReferencedContainer = "container:ChartsDemo-iOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -52,22 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A58A4ED274A941CA248EA921"
-            BuildableName = "Charts.framework"
-            BlueprintName = "Charts"
-            ReferencedContainer = "container:Charts.xcodeproj">
+            BlueprintIdentifier = "225B361C1F6EB9A50005B3D5"
+            BuildableName = "ChartsDemo-iOS-Swift.app"
+            BlueprintName = "ChartsDemo-iOS-Swift"
+            ReferencedContainer = "container:ChartsDemo-iOS.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "FB_REFERENCE_IMAGE_DIR"
-            value = "$(SOURCE_ROOT)/Tests/ReferenceImages"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "225B361C1F6EB9A50005B3D5"
+            BuildableName = "ChartsDemo-iOS-Swift.app"
+            BlueprintName = "ChartsDemo-iOS-Swift"
+            ReferencedContainer = "container:ChartsDemo-iOS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
